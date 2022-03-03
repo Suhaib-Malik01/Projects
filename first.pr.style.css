@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+body{
+    font-family: "Montserrat";
+    max-width: 50%;
+    margin: auto;
+    color: #333;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+}
+.title{
+    flex: 1;
+    margin-left: 20px;
+}
+.face{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 80px;
+    margin-top: 20px;
+}
+.name{
+    color: gray;
+}
+.coral{
+    color: coral;
+}
+
+.contact{
+    color: coral;
+}
+.about{
+    font-size: 17px;
+    margin-left: 2px;
+}
+.hrline{
+    border: 1px solid coral;
+    
+}
+.heading{
+    min-width: 300px;
+    display: block;
+}
+.intro{
+    font-size: 22px;
+    color: coral;
+    
+}
+.margin-fix{
+    margin-top: 20px;
+}
+.pr-name{
+    margin-top: 2px;
+    font-size: 20px;
+    line-height: 25px;
+}
+.Time{
+    font-weight: 300;
+    line-height: 25px;
+}
+.facebook{
+    margin-top: 30px;
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+.insta{
+    margin-top: 30px;
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+.FB{
+    margin-top: 300px;
+    display: flex;
+    align-items: center;
+}
+.twitter{
+    margin-top: 30px;
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
